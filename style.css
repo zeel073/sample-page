@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+header{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    position: sticky;
+    top: 0;
+}
+header ul{
+    display: flex;
+}
+header ul li{
+    height: 40px;
+    padding: 17px 50px 0px 50px;
+    list-style-type: none;
+    font-size: larger;
+    cursor: pointer;
+}
+header ul li:hover{
+    background-color: rgba(255, 255, 255, 0.89);
+    color: rgb(0, 0, 0);
+}
+.bg-img img{
+        width: 100%
+}
+.footer{
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    left: 35%;
+    position: absolute;
+    color: white;
+    font-family: 'Aboreto', cursive;
+}
+.section{
+    min-height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section h2{
+    padding-top: 100px;
+    font-size: 50px;
+    font-family: 'Aboreto', cursive;
+}
+.section p{
+    padding: 40px 200px 40px 200px;
+    font-family: 'Explora', cursive;
+    font-size: 25px;
+    font-weight: 600;
+}
+footer {
+    height: 40px;
+    width: 100%;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.356);
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer p{
+    font-size: large;
+}
+.section .images .img{
+    height: auto;
+    width: 300px;
+    padding: 0px 20px 5px 0px;
+}
+.section .images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section .images .names{
+    display: flex;
+    text-align: center;
+    padding: 0px 20px 80px 20px;
+}
+.section .images .names h3{
+    padding: 0px 120px 0px 120px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+}
+.section2{
+    min-height: 700px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.section2 .text{
+    height: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 90px;
+    font-family: 'Goldman', cursive;
+    font-weight: lighter;
+    font-size: 30px;
+}
+.section2 .horizontal_box{
+    height: 130px;
+    width: 60%;
+    background-color: white;
+     margin-left: 260px; 
+    align-items: center;
+    left: 40px;
+}
+#hb{
+    height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section2 .horizontal_box h3{
+    font-family: 'Kanit', sans-serif;
+    color: rgba(0, 0, 0, 0.596);
+}
+.section2 .vertical_3_boxes{
+    height: 450px;
+    width: 60%;
+     margin-left: 260px; 
+     margin-top: 40px;
+     margin-bottom: 30px;
+     display: flex;
+     justify-content: space-between;
+}
+.section2 .vertical_3_boxes .v_ind{
+    background-color: white;
+}
+.section2 .vertical_3_boxes .v_ind h3{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.596);
+    font-family: 'Goldman', cursive;
+}
+.section2 .vertical_3_boxes .v_ind h4{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.904);
+    font-family: 'Goldman', cursive;
+}
+.section2 .vertical_3_boxes .v_ind img{
+   width: 200px;
+}

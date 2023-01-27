@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -159,4 +160,80 @@ footer p{
 }
 .section2 .vertical_3_boxes .v_ind img{
    width: 200px;
+}
+.form{
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.form .form_heading{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-top: 70px;
+    font-family: 'Quicksand', sans-serif;
+}
+.actual_form form #fname{
+    margin-left: 350px;
+    margin-top: 90px;
+    margin-right: 5px;
+    width: 200px;
+    height: 30px;
+    padding-left: 10px;
+}
+.actual_form form #mname, #lname{
+    margin-right: 5px;
+    width: 200px;
+    height: 30px;
+    padding-left: 10px;
+}
+.actual_form form #number, #email{
+    margin: 10px 0px 0px 350px ;
+    height: 30px;
+    width: 400px;
+    padding-left: 10px;
+}
+.actual_form form .shark_tank, .celebrities{
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    padding:20px 0px 0px 352px;
+    font-size: 17px;
+}
+.actual_form form .shark_tank .shark_tank_radio, .celebrities_checkbox{
+    padding-top: 10px;
+}
+.actual_form form #feedback{
+    margin:15px 0px 0px 350px;
+    height: 100px;
+    width: 500px;
+}
+.actual_form form #feedback::placeholder{
+    top: -30px;
+    position: relative;
+    left: 10px;
+    font-size: 15px;
+}
+.celebrities #name1, #name2, #name3, #name4, #name5{
+    margin-top: 7px;
+}
+.actual_form form .shark_tank .shark_tank_radio #st1, #st2, #st3{
+    margin-top: 5px;
+}
+#submit{
+    margin:60px 0px 60px 605px;
+    height: 50px;
+    width: 130px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+    font-size: medium;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.808);
+    color: white;
+}
+#submit:hover{
+    background-color: rgba(238, 21, 21, 0.082);
+    color: black;
+    cursor: pointer;
 }

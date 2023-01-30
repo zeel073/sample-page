@@ -7,15 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sample HTML page</title>
     <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="menu.css"> -->
 </head>
 
 <body>
     <header>
-        <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
-            <li>Login</li>
+        <ul class="menu">
+            <li >☰</li>
+            <div class="menu_items">
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Login</li>
+            </div>
+        </ul>
+        <ul class="dropdown">
+            <li>List &nbsp;▼   </li>
+            <div class="dropdown_content">
+                <li>list1</li>
+                <li>list2</li>
+                <li>list3</li>
+            </div>
+
         </ul>
     </header>
     <div class="bg-img">
@@ -176,5 +189,4 @@
         <p>copyright © ZeelPatel</p>
     </footer>
 </body>
-
 </html>
